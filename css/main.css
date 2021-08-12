@@ -6699,13 +6699,13 @@ box-shadow: 0px 7px 16px 1px rgba(113, 71, 232, 0.51);
     padding: 20px;
 }
 
-.container-buy .right-side .block-action .buy_fivelive {
+.container-buy .right-side .block-action .buy_Lspeed {
     margin-top: 20px;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.container-buy .right-side .block-action .buy_fivelive a {
+.container-buy .right-side .block-action .buy_Lspeed a {
     width: 300px;
     height: 65px;
     font-style: normal;
@@ -6724,7 +6724,7 @@ box-shadow: 0px 7px 16px 1px rgba(113, 71, 232, 0.51);
     text-decoration: none;
 }
 
-.container-buy .right-side .block-action .buy_fivelive a img {
+.container-buy .right-side .block-action .buy_Lspeed a img {
     margin-left: 10px;
     filter: invert(1);
     width: 25px;
@@ -9981,7 +9981,7 @@ box-shadow: 0px 7px 16px 1px rgba(113, 71, 232, 0.51);
     text-align: center;
 }
 
-.intro-block .container-media .content-block .about_fivelive {
+.intro-block .container-media .content-block .about_Lspeed {
     display: flex;
     flex-direction: column;
     font-size: 32px;
@@ -9990,7 +9990,7 @@ box-shadow: 0px 7px 16px 1px rgba(113, 71, 232, 0.51);
     text-align: center;
 }
 
-.intro-block .container-media .content-block .about_fivelive p {
+.intro-block .container-media .content-block .about_Lspeed p {
     display: flex;
     font-size: 14px;
     font-weight: 400;
@@ -10126,17 +10126,17 @@ box-shadow: 0px 7px 16px 1px rgba(113, 71, 232, 0.51);
         width: 100%;
     }
 
-    .intro-block .container-media .content-block .about_fivelive {
+    .intro-block .container-media .content-block .about_Lspeed {
         margin-left: 0px;
         text-align: center;
         width: 100%;
     }
 
-    .intro-block .container-media .content-block .about_fivelive h3 {
+    .intro-block .container-media .content-block .about_Lspeed h3 {
         font-size: 22px;
     }
 
-    .intro-block .container-media .content-block .about_fivelive p {
+    .intro-block .container-media .content-block .about_Lspeed p {
         width: 100%;
     }
 

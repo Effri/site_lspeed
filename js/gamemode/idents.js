@@ -1,5 +1,5 @@
 
-class FiveLiveIdents {
+class LspeedIdents {
     
     constructor() {
 
