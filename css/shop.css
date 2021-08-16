@@ -202,11 +202,17 @@ section .shop .block .items_list .server_items .content .footer .stat
 
 section .shop .block .items_list .server_items .content .footer .stat .label
 {
-    font-family: TT Norms;  font-size: 16px;  font-weight: 500;  font-style: normal;  line-height: 19px;  margin-bottom: 5px;
+    font-family: TT Norms;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 19px;
+    margin-bottom: 5px;
 
 /* identical to box height */
-
+    text-align: left;
     color: #b9b9b9;
+    padding: 0;
 }
 
 section .shop .block .items_list .server_items .content .footer .stat .label b
@@ -258,7 +264,7 @@ section .shop .block .items_list .server_items .content .btn_buy img
 
 section .shop .block form
 {
-    width: 450px;
+    /* width: 450px; */
 }
 
 section .shop .block label

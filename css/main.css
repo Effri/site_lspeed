@@ -4395,7 +4395,7 @@ body {
     padding: 0 26px;
     /* margin: 40px 10px 10px 10px; */
     /* width: 320px; */
-    width: 235px;
+    /* width: 235px; */
     height: 70px;
     /* left: 492px; */
     /* top: 707px; */
@@ -4419,7 +4419,7 @@ body {
     background: -o-linear-gradient(bottom, #7147E8, #7147E8), -o-linear-gradient(312.42deg, rgba(7, 164, 255, 0.7) 9.66%, rgba(113, 71, 232, 0.19) 142.07%), rgba(255, 255, 255, 0.37);
     background: linear-gradient(0deg, #7147E8, #7147E8), linear-gradient(137.58deg, rgba(7, 164, 255, 0.7) 9.66%, rgba(113, 71, 232, 0.19) 142.07%), rgba(255, 255, 255, 0.37);
     -webkit-box-shadow: 5px 0px 31px rgba(59, 61, 240, 0.44), -2px 1px 9px 2px rgba(255, 255, 255, 0.13);
-            box-shadow: 5px 0px 31px rgba(59, 61, 240, 0.44), -2px 1px 9px 2px rgba(255, 255, 255, 0.13);
+    box-shadow: 5px 0px 31px rgba(59, 61, 240, 0.44), -2px 1px 9px 2px rgba(255, 255, 255, 0.13);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4432,7 +4432,8 @@ body {
 }
 
 .main-content .left-side .online-block .text-online {
-    margin-left: 23px;
+    /* margin-left: 23px; */
+    padding-left: 23px;
 }
 
 .main-content .left-side .online-block .text-online .online-now .now {
@@ -4476,10 +4477,10 @@ body {
     /* background: linear-gradient(135.38deg, #4929c8 0, #7c49ff 82.46%); */
     /* width: 180px; */
     height: 2px;
-    width: 93px;
+    /* width: 93px; */
     background: #205492;
     -webkit-box-shadow: 0px 3px 8px 3px rgba(31, 27, 255, 0.25), 0px 1px 3px 0.5px rgba(255, 255, 255, 0.25);
-            box-shadow: 0px 3px 8px 3px rgba(31, 27, 255, 0.25), 0px 1px 3px 0.5px rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 3px 8px 3px rgba(31, 27, 255, 0.25), 0px 1px 3px 0.5px rgba(255, 255, 255, 0.25);
 }
 
 
@@ -4490,9 +4491,9 @@ body {
 
 .footer-main {
     background: 0 0 !important;
-    height: 300px !important;
+    /* height: 300px !important; */
     position: absolute;
-    bottom: 0
+    bottom: 0;
 }
 
 .footer-main .container-footer {
@@ -5109,21 +5110,21 @@ body {
     /* background: #010103; */
     /* height: auto; */
     /* position: relative; */
-    z-index: 1;
+    z-index: 0;
     /* margin-top: 40px; */
     position: absolute;
     bottom: 0;
     left: 50%;
     -webkit-transform: translate(-50%, 0);
-        -ms-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .footer-intro .container-footer {

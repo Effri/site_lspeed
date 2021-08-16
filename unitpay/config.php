@@ -3,10 +3,10 @@
 class Config
 {
     # MySQL Config #
-    const DB_HOST = '46.174.50.60';
+    const DB_HOST = '';
     const DB_USER = 'root';
-    const DB_PASS = 'password';
-    const DB_NAME = 'lspeed_database';
+    const DB_PASS = '';
+    const DB_NAME = '';
 	
 	# UnitPay Config #
     const SECRET_KEY = '';
