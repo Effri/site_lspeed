@@ -124,7 +124,15 @@
 
                         <div class="block animate__animated animate__pulse">
 
-                            <!-- <h1 class="not_release">На сервере ведется закрытое бета-тестирование, пожертвования сейчас отключены, ожидайте релиз проекта!</h1> -->
+                            <h1 class="not_release">На сервере ведется закрытое бета-тестирование, пожертвования сейчас отключены, ожидайте релиз проекта!</h1>
+
+                            <form action="freekassa_gta/index.php" method="POST">
+                                <input name="action" value="fk_go" class="main_input" type="hidden">
+                                <input name="action" value="fk_go" class="main_input" type="hidden">
+                                <input name="account" placeholder="Ник аккаунта" class="main_input" type="text"><br>
+                                <input name="sum" placeholder="Сумма пополнения" class="main_input" type="text"><br>
+                                <button class="dl_btn">Оплатить</button>
+                            </form>
 
                             <!-- <form action="https://unitpay.money/pay/4" method='post'>
                                 <input type="hidden" name="_token" value="LFYZhZHwFoOXzq8IdJ6Jg0Yx4U0d4az8XXsUCl1H">
@@ -147,10 +155,7 @@
 
                                 </div>
                             </form> -->
-                            <form action="freekassa_gta/index.php" method="GET">
-                                <!-- <input name="action" value="fk_go" class="main_input" type="hidden"> -->
-                                <!-- <input name="account" placeholder="Ник аккаунта" class="main_input" type="text"><br> -->
-                                <!-- <input name="sum" placeholder="Сумма пополнения" class="main_input" type="text"><br> -->
+                            <!-- <form action="freekassa_gta/index.php" method="GET">
                                 <div class="form-group">
                                     <label>Игровой логин</label>
                                     <i class="far fa-user"></i>
@@ -308,7 +313,7 @@
 
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
